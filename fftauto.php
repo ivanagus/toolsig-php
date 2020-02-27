@@ -60,7 +60,7 @@ if ($login['status'] == 'success') {
 					if ($data_follow['status'] == 'success') {
 
 						echo color()["LG"]."Follow Success | ";
-						$sleep = 100000;
+						$sleep = 1000;
 						$id_post = $post['id'];
 
 						$like = like($id_post, $data_login);
